@@ -5,7 +5,7 @@ Test of differents models to classify sentiment in tweet including Microsoft API
 
 ## Data
 Dataset available [here](https://www.kaggle.com/datasets/kazanova/sentiment140).  
-1 600 000 tweets.
+It contains 1 600 000 tweets. Each tweets is classified with either good or bad sentiment.
 
 ## Data preparation 
 The following filter were applied in both scripts :
