@@ -7,6 +7,9 @@ Test of differents models to classify sentiment in tweet including Microsoft API
 Dataset available [here](https://www.kaggle.com/datasets/kazanova/sentiment140).  
 It contains 1 600 000 tweets. Each tweets is classified with either good or bad sentiment.
 
+## Azure
+Azure Machine Learning were used to prepare the data, train and test the differents models.
+
 ## Data preparation 
 The following filter were applied in both scripts :
 * Stopwords with NLTK  
@@ -17,13 +20,13 @@ The following filter were applied in both scripts :
 * Stemming  
 * Occurence > 2  
 
-Then for one model we tried without any punctuation
+Then for one model we tried without any punctuation.  
 See this [notebook](https://github.com/Falco-ops/Tweet-sentiment-analysis/blob/master/master-ppss1.ipynb) 
 
-And in the other one we use the emoji library to tokenize emoji with [NLTK tweet tokenizer](https://tedboy.github.io/nlps/generated/generated/nltk.tokenize.TweetTokenizer.html).
+And in the other one we use the emoji library to tokenize emoji with [NLTK tweet tokenizer](https://tedboy.github.io/nlps/generated/generated/nltk.tokenize.TweetTokenizer.html).  
 See this [notebook](https://github.com/Falco-ops/Tweet-sentiment-analysis/blob/master/master-pprss2.ipynb).  
 
-# Model
+## Models
 We studied the impact of emoji on accuracy.
 Regarding the model the following were tested :
 * simple RNN layer
